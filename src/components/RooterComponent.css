@@ -1,0 +1,25 @@
+.RooterComponent {
+  background-color :#3333CB;
+  height:50px;
+  padding-top:15px;
+}
+.RooterComponent ul {
+  text-align: center;
+  list-style-type:none;
+}
+.RooterComponent li {
+  
+  color:white;
+  display:inline-block;
+  margin:0px 10px;
+}
+.RooterComponent .nav-link {
+  
+  color:white;
+  text-decoration:none;
+  
+}
+.RooterComponent .nav-link:hover {
+  color:greenyellow;
+  text-decoration:none;
+}

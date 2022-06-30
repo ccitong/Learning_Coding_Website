@@ -1,0 +1,70 @@
+.ScheduleClassPage{
+  background-color: #efefef;
+  height: 100vh;
+}
+
+.ScheduleClassPage .classElement{
+  
+  background-color: white;
+  height: 100px;
+  margin: 30px 100px;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+ 
+}
+
+.ScheduleClassPage .button{
+  background-color: #FC4A1A;
+  color:white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+.ScheduleClassPage .link{
+  color: blue;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.ScheduleClassPage .h1{
+  text-align: center;
+  padding: 20px;
+}
+
+.ScheduleClassPage .p{
+  text-align: center;
+}
+
+.div1 { 
+  grid-area: 1 / 1 / 2 / 2; 
+  margin-left: 20px;
+  margin-top: 20px;
+  
+}
+.ScheduleClassPage .classElement .div2 { 
+  grid-area: 2 / 1 / 3 / 2; 
+  margin-left: 20px;
+  
+}
+.ScheduleClassPage .classElement .div3 { 
+  grid-area: 1 / 2 / 2 / 3; 
+  padding-top: 20px;
+  margin-left: 200px;
+}
+.ScheduleClassPage .classElement .div4 { 
+  grid-area: 2 / 2 / 3 / 3; 
+  margin-left: 200px;
+}
+.ScheduleClassPage .classElement .div5 { 
+  
+  grid-area: 1 / 3 / 3 / 4; 
+  margin: 30px 220px 30px;
+}

@@ -1,0 +1,27 @@
+.BookClassPage{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  place-items:  center;
+}
+
+.BookClassPage .ClassSummary{
+  width: 400px;
+  height:400px;
+  margin: 50px 50px 50px;
+  padding: 20px 50px 50px;
+  background-color: #efefef;
+  
+}
+
+.BookClassPage .ClassSummary .title{
+  color: blue;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}

@@ -4,10 +4,30 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+//react router dom imports
+import{
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+
+import ScheduleClassPage from './pages/ScheduleClassPage';
+import BookClassPage from './pages/BookClassPage';
+import HomePage from './pages/HomePage';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+    <Routes>
+      <Route path = "/" element = {<App />}>
+        <Route path = "schedule" element = {<ScheduleClassPage />}></Route>
+        <Route path = "book/:classId" element = {<BookClassPage />}></Route>
+        <Route index element={<HomePage />}></Route>
+      </Route>
+    </Routes>
+    
+    </BrowserRouter>
   </React.StrictMode>
 );
 
